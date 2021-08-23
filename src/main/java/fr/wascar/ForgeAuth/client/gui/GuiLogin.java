@@ -115,7 +115,7 @@ public class GuiLogin extends GuiScreen {
 			((GuiButton) buttonList.get(0)).enabled = (passField.getText().trim().length() > 0);
 
 		if ((par2 == 28) || (par2 == 156)) {
-			actionPerformed((GuiButton) buttonList.get(1));
+			actionPerformed((GuiButton) buttonList.get(0));
 		}
 	}
 
